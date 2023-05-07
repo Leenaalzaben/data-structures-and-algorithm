@@ -7,7 +7,7 @@
 
 ## Whiteboard Process
 
-![Code_challengeMI1](./Code_C1.png)
+![array_re](./array_re.png)
 
 ## Approach & Efficiency
 
