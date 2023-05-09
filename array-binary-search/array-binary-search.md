@@ -1,5 +1,8 @@
 
 # Code Challenge_03 : Array Binary Search
+# Author : 
+## Driver : Leena Alzaben & Navigater: Ibrahim Adnan
+<br>
 
 Write a function called `Binary_Search` which takes in parameters:<br>
 The first to **sorted array** and the second to **search key**.<br>
@@ -8,7 +11,7 @@ And return the index of the array’s element that is equal to the value of the 
 
 ## Whiteboard Process
 
-![Array_Binary](./CC_3L.png)
+![Code_Challenge_3](./Code_Challenge_3.png)
 
 ## Approach & Efficiency
 
