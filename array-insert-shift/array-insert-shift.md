@@ -2,14 +2,6 @@
 
 ## Code Challenge: Class 02_Insert Shift Array
 
-### Author : 
-
-### Driver :Leena <br>
-
-### Navigater:Ibrahim Adnan
-
-
-
 
 # Whiteboard Process
 
