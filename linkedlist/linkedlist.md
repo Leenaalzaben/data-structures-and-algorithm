@@ -4,11 +4,11 @@ Create a Node class that has properties for the value stored in the Node, and a 
 
 1. Insert
 2. Includes
-3. To_string<br>
+3. string<br>
 
 - The `insert` method should add a new node to the linked list.
 - The `includes` method should determine whether a given value exists within the linked list.
-- The `to_string` method return a string represent all the values in the linked list.
+- The `string` method return a string represent all the values in the linked list.
 Like : `{ a }` , `{ b }` , `{ c }`
 
 ## Whiteboard Process
@@ -26,7 +26,9 @@ A linked list consists of two classes: the main LinkedList class that stores all
 - O(n) : add element at the end and at a specific position in the node.
 
 ## Solution
-`#  Create a Node class with properties the value stored in the Node, and a pointer to the next Node
+#  Create a Node class with properties the value stored in the Node, and a pointer to the next Node
+``` 
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -50,10 +52,11 @@ class LinkedList:
         while Recent_includes:
             if Recent_includes.value == value:
                 return True
-            Recent_includes = Recent_includes.next
+            Recent_includes = Recent_includes.value
+            print(Recent_includes)
         return False
 
-    def to_string(self):
+    def string(self):
         if self.head is None:
             return "NULL"
         Recent_string = self.head
@@ -66,13 +69,13 @@ class LinkedList:
 
 
 if __name__ == "__main__":
- ###  nodes
+    #  nodes
     node1 = Node('a')
     node2 = Node('b')
     node3 = Node('c')
     node4 = Node('d')
 
-### Linked together
+# Linked together
     node1.next = node2
     node2.next = node3
     node3.next = None
@@ -80,4 +83,5 @@ if __name__ == "__main__":
     print(node1.value)
     print(node2.value)
     print(node3.value)
-`
+
+```

@@ -26,7 +26,7 @@ class LinkedList:
             print(Recent_includes)
         return False
 
-    def to_string(self):
+    def string(self):
         if self.head is None:
             return "NULL"
         Recent_string = self.head
