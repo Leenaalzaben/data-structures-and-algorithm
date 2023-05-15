@@ -25,7 +25,7 @@ class test_Linked_List(unittest.TestCase):
         self.list.insert('a')
         
     #  Test String
-    def test_to_string(self):
+    def test_string(self):
     
         self.list.insert('a')
         self.list.insert('b')
