@@ -3,6 +3,7 @@ class Node:
         self.value = value
         self.next = None
 
+
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -18,22 +19,22 @@ class LinkedList:
             current.next = new_node
             
     def insertBefore(self, value, newValue):
-        if (self.head == None):
+        if self.head is None:
             return
 
-        if (self.head.data == value):
+        if self.head.value == value:
             new_node = Node(newValue)
             new_node.next = self.head
             self.head = new_node
             return
 
         n = self.head
-        while (n.next != None):
-            if (n.next.data == value):
+        while n.next is not None:
+            if n.next.value == value:
                 break
             n = n.next
 
-        if (n.next == None):
+        if n.next is None:
             return
 
         new_node = Node(newValue)
@@ -44,11 +45,10 @@ class LinkedList:
         new_node = Node(new_value)
         temp = self.head
         while temp:
-            if temp.data == value:
+            if temp.value == value:
                 new_node.next = temp.next
                 temp.next = new_node
                 break
             temp = temp.next
-
 
 
