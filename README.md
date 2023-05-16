@@ -10,4 +10,4 @@
 | Code Challenge 4  |[Code04]()|
 | Code Challenge 5  |[linkedlist](./linkedlist/linkedlist.md)|
 | Code Challenge 6  |[linked-list-insertions](./linked-list-insertions/linked-list-insertions.md)|
-| Code Challenge 7  |[linked-list-kth](./linkedlistkth/linked-list-kth.md)|
+| Code Challenge 7  |[linked-list-kth](./inslinkedlist/linked-list-insertions.md)|
