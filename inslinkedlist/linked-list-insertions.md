@@ -3,7 +3,8 @@
 The Linked List (LL) class have three methods which the first for append, the second for insert_before, and last one for insert_after
 The append method focuses on extending the linked list by adding a new node to the end.
 The Insert_before method deals with inserting a new node before the first occurrence of a specified value in the list.
-The  Insert_after method involves inserting a new node after the first occurrence of a specified value in the list
+The  Insert_after method involves inserting a new node after the first occurrence of a specified value in the list.
+Also The The next one is represents a method called "kth_from_end" within a class. It takes an input parameter "k," which represents the position from the end of the linked list. The method aims to find and return the value of the node at the specified position.
 
 ## Whiteboard Process
 
@@ -19,6 +20,10 @@ The  Insert_after method involves inserting a new node after the first occurrenc
 
 ![Miro](./MiroP.png)
 
+### Linked List kth_from_end
+
+![LinkedListkth](./LinkedListkth.png)
+
 ## Approach & Efficiency
 
 ### Linked List Insertions _Append
@@ -32,6 +37,10 @@ The approach is to traverse the linked list, find the node with value, and inser
 ### Linked List Insertions _ After
 
 The approach is to traverse the linked list, find the node with value, and insert the new node after it
+
+### Linked List kth_from_end
+
+The approach ensures that the desired position is within bounds, calculates the location efficiently, and returns the correct value. It has a time complexity of O(N) and handles edge cases appropriately.
 
 ## Big O
 
@@ -52,6 +61,12 @@ This method can also be optimized to work in O(1) by keeping an extra pointer to
 **The time complexity** of the insert_after method in the given code snippet is O(n), where n is the number of nodes in the linked list.
 
 **The space complexity** of the insert_after method is O(1) because it uses a constant amount of additional space.
+
+### Linked List kth_from_end
+
+The time complexity of the kth_from_end method is dominated by the linear traversal to calculate the length of the linked list, resulting in a time complexity of O(N).
+
+The space complexity of the algorithm is O(1) because it uses a constant amount of additional memory to store variables length, current, and location
 
 ## Solution
 
@@ -112,6 +127,22 @@ class LinkedList:
                 temp.next = new_node
                 break
             temp = temp.next
+            def kth_from_end(self, k):
+        if k <= 0:
+            return None
+        length = 0
+        current = self.head
+        while current:
+            length += 1
+            current = current.next
+        if k > length:
+            return None
+        location = length - k
+        current = self.head
+        for i in range(location):
+            current = current.next
+
+        return current.value
 
 
        
