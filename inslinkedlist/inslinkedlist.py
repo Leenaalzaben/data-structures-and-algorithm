@@ -51,4 +51,24 @@ class LinkedList:
                 break
             temp = temp.next
 
+             # kth Linked
+    def kth_from_end(self, k):
+        if k <= 0:
+            return None
+        length = 0
+        current = self.head
+        while current:
+            length += 1
+            current = current.next
+        if k > length:
+            return None
+        location = length - k
+        current = self.head
+        for i in range(location):
+            current = current.next
+
+        return current.value
+
+          
+
 
