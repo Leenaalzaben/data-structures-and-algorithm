@@ -12,7 +12,7 @@ Create a Node class that has properties for the value stored in the Node, and a 
 Like : `{ a }` , `{ b }` , `{ c }`
 
 ## Whiteboard Process
-![Miro](./Miro.jpg)
+![Linked_List](./Linked_List.png)
 
 ## Approach & Efficiency
 
