@@ -33,7 +33,9 @@ To run the tests, execute the following commands:
 `pytest tests/test_stack.py`<br>
 `pytest tests/test_queue.py`
 
-### Running the Code
+### Running the Code 
+[Stack](../Stack/stack.py)<br>
+[Queue](./queue.py)
 
 To run the code, execute the following commands:<br>
 `python3 Queue/queue.py`<br>
