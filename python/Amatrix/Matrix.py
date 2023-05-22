@@ -10,3 +10,9 @@ def summation(matrix):
 
 sums = summation(matrix)
 print(f" {matrix}        {sums}")  
+
+
+
+
+
+
