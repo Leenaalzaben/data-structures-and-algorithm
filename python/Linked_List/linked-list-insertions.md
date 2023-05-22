@@ -10,15 +10,15 @@ Also The The next one is represents a method called "kth_from_end" within a clas
 
 ### Linked List Insertions _ Append
 
-![Miro](./miroL.png)
+![Miro](../Linked_List/miroL.png)
 
 ### Linked List Insertions _ Before
 
-![Miro](./miro2.png)
+![Miro](../Linked_List/miro2.png)
 
 ### Linked List Insertions _ After
 
-![Miro](./MiroP.png)
+![Miro](../Linked_List/MiroP.png)
 
 ### Linked List kth_from_end
 

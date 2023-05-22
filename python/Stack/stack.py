@@ -1,5 +1,16 @@
-class Node :
-    def __init__(self,value=None,next=None):
+class Node:
+    """
+    Class representing a node in a linked list.
+    """
+
+    def __init__(self, value=None, next=None):
+        """
+        Initialize a new node with the given value and next node reference.
+
+        Args:
+            value: The value to be stored in the node.
+            next: Reference to the next node.
+        """
         self.value = value
         self.next = next
 

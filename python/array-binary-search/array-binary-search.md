@@ -11,7 +11,7 @@ And return the index of the array’s element that is equal to the value of the 
 
 ## Whiteboard Process
 
-![Code_Challenge_3](./Code_Challenge_3.png)
+![Code_Challenge_3](../array-binary-search/Code_Challenge_3.png)
 
 ## Approach & Efficiency
 

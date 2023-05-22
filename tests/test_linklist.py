@@ -1,4 +1,4 @@
-from linkedlist.linkedlist import LinkedList
+from python.linkedlist.linkedlist import LinkedList
 import unittest
 
 class test_Linked_List(unittest.TestCase):
