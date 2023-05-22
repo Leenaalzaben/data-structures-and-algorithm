@@ -38,6 +38,7 @@ The efficiency of the `zip_Lists` function is as follows:
 
 Please note that the implementation assumes that both `list1` and `list2` are valid linked lists and have at least one node.
 ## Solution
+[click here to see the code](../linked_list.py)
 
 ```python 
 def zip_Lists(list1, list2):
@@ -66,3 +67,8 @@ def zip_Lists(list1, list2):
 
     return list1
     ```
+
+
+
+
+
