@@ -1,5 +1,5 @@
 import pytest
-from python.Stack.stack import stack
+from StackAndQueue.Stack.stack import stack
 
 def test_push_stack():
     s = stack()

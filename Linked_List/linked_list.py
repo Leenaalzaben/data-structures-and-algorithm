@@ -171,30 +171,7 @@ class LinkedList:
         else:
          raise Exception('There is no value at that index!')
         
-    def zip_Lists(self, list1, list2):
-        """
-        Zips two linked lists together by alternating their elements.
-
-        Parameters:
-            list1 (LinkedList): The first linked list.
-            list2 (LinkedList): The second linked list.
-        """
-
-        current1 = list1.head
-        current2 = list2.head
-
-        while current1 and current2:
-            next1 = current1.next
-            next2 = current2.next
-            current1.next = current2
-            current2.next = next1
-            last_current1 = current1.next
-            current1 = next1
-            current2 = next2
-            if not current1 and current2:
-                last_current1.next = current2
-
-        return list1
+    
         
         
 
