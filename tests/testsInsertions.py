@@ -1,6 +1,6 @@
 
 import pytest
-from python.Linked_List.linked_list import Node,LinkedList
+from Linked_List.linked_list import Node,LinkedList
 
 
 def test_empty_list():

@@ -37,10 +37,18 @@ The efficiency of the `zip_Lists` function is as follows:
 - Space Complexity: O(1). The function uses a fixed number of variables to track the current nodes and their next nodes. It does not require additional data structures or dynamic memory allocations.
 
 Please note that the implementation assumes that both `list1` and `list2` are valid linked lists and have at least one node.
-## Solution
-[click here to see the code](../linked_list.py)
 
-```python 
+## Solution
+
+<br><br>
+
+Running use >> `python zipLinkedList/zipll.py`<br>
+To testing >> `pytest tests/testZip.py`
+
+[click here to see the code](./zipll.py)
+
+  ```python
+
 def zip_Lists(list1, list2):
     """
     Zips two linked lists together by alternating their elements.
@@ -66,9 +74,5 @@ def zip_Lists(list1, list2):
 
 
     return list1
+
     ```
-
-
-
-
-
