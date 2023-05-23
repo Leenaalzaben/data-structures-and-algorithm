@@ -14,6 +14,6 @@
 
 | Column 1  | Column 2  |
 | ---------------- | ---------------- |
-| Code Challenge 6  |[linked-list-insertions](./insertion/linked-list-insertions.md)|
-| Code Challenge 7  |[stack-and-queue](./Queue/StackAndQueue.md)|
+| Code Challenge 6  |[linked-list-insertions](./Linked_List/linked-list-insertions.md)|
+| Code Challenge 7  |[stack-and-queue](./StackAndQueue/Queue/StackAndQueue.md)|
 | Code Challenge 8  |[Linked-list-zip](./zipLinkedList/zip.md)|
