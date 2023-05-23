@@ -1,5 +1,5 @@
 import pytest
-from StackAndQueue.Queue.queue import Queue
+from Queue.queue import Queue
 
 def test_enqueue():
     q = Queue()
