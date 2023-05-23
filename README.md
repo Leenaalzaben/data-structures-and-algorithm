@@ -16,4 +16,4 @@
 | ---------------- | ---------------- |
 | Code Challenge 6  |[linked-list-insertions](./insertion/linked-list-insertions.md)|
 | Code Challenge 7  |[stack-and-queue](./Queue/StackAndQueue.md)|
-| Code Challenge 8  |[Linked-list-zip](./python/Linked_List/zip_linked_list/zip_linked_list.md)|
+| Code Challenge 8  |[Linked-list-zip](./zipLinkedList/zip.md)|
