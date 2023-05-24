@@ -1,3 +1,6 @@
 .venv
 tests/__pycache__
 StackAndQueue/.pytest_cache
+StackAndQueue/Queue/__pycache__
+StackAndQueue/Stack/__pycache__
+linkedlist/__pycache__
