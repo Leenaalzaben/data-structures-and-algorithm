@@ -36,6 +36,7 @@ class LinkedList:
             Recent_string = Recent_string.next
         output += "NULL"
         return output
+    
 
 
 if __name__ == "__main__":

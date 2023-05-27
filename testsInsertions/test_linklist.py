@@ -13,9 +13,7 @@ class test_Linked_List(unittest.TestCase):
         self.list.insert('b')
         self.list.insert('c')
 
-        
-
-
+    
 
     # Test Two includes
     def test_includes(self):
